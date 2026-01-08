@@ -1,4 +1,5 @@
-def start_system():
-    print("System Started")
-
-start_system()
+def login(username, password):
+    if username == "admin" and password == "admin":
+        print("Login successful")
+    else:
+        print("Login failed")
